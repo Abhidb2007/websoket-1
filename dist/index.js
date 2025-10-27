@@ -6,8 +6,8 @@ wss.on("connection", (socket) => {
     setInterval(() => {
         socket.send("current price of solona is" + Math.random());
     }, 5000);
-    socket.on("message", (message) => {
-        console.log("Received:", message.toString());
+    socket.on("message", (e) => {
+        console.log(e);
     });
 });
 //# sourceMappingURL=index.js.map

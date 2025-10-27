@@ -10,6 +10,6 @@ wss.on("connection", (socket) => {
   },5000)
 
   socket.on("message", (e) => {
-    console.log(e);
+    console.log(e.toString());
   });
 }); 
