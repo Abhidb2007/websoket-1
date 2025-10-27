@@ -7,7 +7,7 @@ wss.on("connection", (socket) => {
         socket.send("current price of solona is" + Math.random());
     }, 5000);
     socket.on("message", (e) => {
-        console.log(e);
+        console.log(e.toString());
     });
 });
 //# sourceMappingURL=index.js.map
