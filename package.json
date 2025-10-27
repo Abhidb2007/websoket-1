@@ -1,0 +1,20 @@
+{
+  "name": "websocket-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -b && node ./dist/index.js"
+  },
+  "dependencies": {
+    "@types/ws": "^8.18.1",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
